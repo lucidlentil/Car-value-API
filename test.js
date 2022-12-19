@@ -1,4 +1,4 @@
-const request = require('supertest')('https://jsonplaceholder.typicode.com'); 
+/*const request = require('supertest')('https://jsonplaceholder.typicode.com'); 
 
 const assert = require('chai').assert;
 
@@ -18,4 +18,4 @@ describe('Car value API', () => {
         assert.isNotEmpty(res.body);
         });
     });
-});
+});*/
