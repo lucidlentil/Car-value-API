@@ -1,4 +1,4 @@
-const request = require('supertest')('https://jsonplaceholder.typicode.com'); 
+/*const request = require('supertest')('https://jsonplaceholder.typicode.com'); 
 
 const assert = require('chai').assert;
 const expect  = require('chai').expect;
@@ -18,7 +18,7 @@ describe('Car value API', () => {
         .send(data)
         .then((res) => {
            
-        /*let numericModel = alphabetPosition(data.model); 
+        let numericModel = alphabetPosition(data.model); 
         let modelStringArray = numericModel.split(' '); 
         let modelNumArray = modelStringArray.map(number => {
             return Number(number)
@@ -34,7 +34,7 @@ describe('Car value API', () => {
         let actual = (modelSum * 100) + data.year;
 
         //Assert
-        expect(actual).toBe(expected);*/
+        expect(actual).toBe(expected);
         })
     })
-})
+})*/
